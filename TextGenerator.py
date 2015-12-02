@@ -161,9 +161,9 @@ class TextGenerator:
             f.write('Contents\n\n' + '_' * 60 + table_of_contents + '_' * 60 + '\n' + text)
 
 filename = '/asimov_dickens_pratchett.txt'
-test = TextGenerator(os.getcwd() + filename)
+generator = TextGenerator(os.getcwd() + filename)
 # test.update(os.getcwd() + '/TEST/')
-test.generate_text(os.getcwd() + '/generated_text.txt', 10000)
+generator.generate_text(os.getcwd() + '/generated_text.txt', 10000)
 # test.update(os.getcwd() + '/asimov/')
 # print 'asimov updated'
 # test.update(os.getcwd() + '/pratchett/')
