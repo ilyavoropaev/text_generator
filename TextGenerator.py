@@ -163,7 +163,7 @@ class TextGenerator:
 filename = '/asimov_dickens_pratchett.txt'
 generator = TextGenerator(os.getcwd() + filename)
 # test.update(os.getcwd() + '/TEST/')
-generator.generate_text(os.getcwd() + '/generated_text.txt', 10000)
+generator.generate_text(os.getcwd() + '/generated_text.txt', 15000)
 # test.update(os.getcwd() + '/asimov/')
 # print 'asimov updated'
 # test.update(os.getcwd() + '/pratchett/')
